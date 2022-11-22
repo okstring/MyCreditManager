@@ -7,7 +7,7 @@
 
 import Foundation
 
-class StudentDAO {
+class Computer {
     typealias StudentDB = Set<Student>
 
     private var studentList: StudentDB

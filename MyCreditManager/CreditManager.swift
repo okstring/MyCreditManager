@@ -8,10 +8,10 @@
 import Foundation
 
 struct CreditManager {
-    let computer: StudentDAO
+    let computer: Computer
     let monitor: Monitor
 
-    init(computer: StudentDAO = StudentDAO(),
+    init(computer: Computer = Computer(),
          moditor: Monitor = Monitor()) {
         self.computer = computer
         self.monitor = moditor
