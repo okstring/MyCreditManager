@@ -8,6 +8,15 @@
 
 /* Begin PBXBuildFile section */
 		FC613378292CB29A00A1B1A4 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC613377292CB29A00A1B1A4 /* main.swift */; };
+		FC61337F292CBC0200A1B1A4 /* Monitor.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC61337E292CBC0200A1B1A4 /* Monitor.swift */; };
+		FC613381292CC67200A1B1A4 /* String+isAlphanumeric.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC613380292CC67200A1B1A4 /* String+isAlphanumeric.swift */; };
+		FC613383292CC68700A1B1A4 /* Student.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC613382292CC68700A1B1A4 /* Student.swift */; };
+		FC613387292CD23400A1B1A4 /* Credit.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC613386292CD23400A1B1A4 /* Credit.swift */; };
+		FC613389292CD24300A1B1A4 /* InputType.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC613388292CD24300A1B1A4 /* InputType.swift */; };
+		FC61338B292CE09A00A1B1A4 /* StudentDAO.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC61338A292CE09A00A1B1A4 /* StudentDAO.swift */; };
+		FC61338D292CE31200A1B1A4 /* CreditCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC61338C292CE31200A1B1A4 /* CreditCard.swift */; };
+		FC61338F292CEA2100A1B1A4 /* CreditManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC61338E292CEA2100A1B1A4 /* CreditManager.swift */; };
+		FC613393292CEA9900A1B1A4 /* Status.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC613392292CEA9900A1B1A4 /* Status.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +34,15 @@
 /* Begin PBXFileReference section */
 		FC613374292CB29A00A1B1A4 /* MyCreditManager */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = MyCreditManager; sourceTree = BUILT_PRODUCTS_DIR; };
 		FC613377292CB29A00A1B1A4 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		FC61337E292CBC0200A1B1A4 /* Monitor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Monitor.swift; sourceTree = "<group>"; };
+		FC613380292CC67200A1B1A4 /* String+isAlphanumeric.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+isAlphanumeric.swift"; sourceTree = "<group>"; };
+		FC613382292CC68700A1B1A4 /* Student.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Student.swift; sourceTree = "<group>"; };
+		FC613386292CD23400A1B1A4 /* Credit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Credit.swift; sourceTree = "<group>"; };
+		FC613388292CD24300A1B1A4 /* InputType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InputType.swift; sourceTree = "<group>"; };
+		FC61338A292CE09A00A1B1A4 /* StudentDAO.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudentDAO.swift; sourceTree = "<group>"; };
+		FC61338C292CE31200A1B1A4 /* CreditCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreditCard.swift; sourceTree = "<group>"; };
+		FC61338E292CEA2100A1B1A4 /* CreditManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreditManager.swift; sourceTree = "<group>"; };
+		FC613392292CEA9900A1B1A4 /* Status.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Status.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,8 +76,33 @@
 			isa = PBXGroup;
 			children = (
 				FC613377292CB29A00A1B1A4 /* main.swift */,
+				FC61338E292CEA2100A1B1A4 /* CreditManager.swift */,
+				FC61337E292CBC0200A1B1A4 /* Monitor.swift */,
+				FC61338A292CE09A00A1B1A4 /* StudentDAO.swift */,
+				FC613391292CEA4300A1B1A4 /* extension */,
+				FC613390292CEA3300A1B1A4 /* Model */,
 			);
 			path = MyCreditManager;
+			sourceTree = "<group>";
+		};
+		FC613390292CEA3300A1B1A4 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				FC61338C292CE31200A1B1A4 /* CreditCard.swift */,
+				FC613382292CC68700A1B1A4 /* Student.swift */,
+				FC613386292CD23400A1B1A4 /* Credit.swift */,
+				FC613388292CD24300A1B1A4 /* InputType.swift */,
+				FC613392292CEA9900A1B1A4 /* Status.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		FC613391292CEA4300A1B1A4 /* extension */ = {
+			isa = PBXGroup;
+			children = (
+				FC613380292CC67200A1B1A4 /* String+isAlphanumeric.swift */,
+			);
+			path = extension;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -120,7 +163,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FC61338D292CE31200A1B1A4 /* CreditCard.swift in Sources */,
+				FC613393292CEA9900A1B1A4 /* Status.swift in Sources */,
+				FC61338F292CEA2100A1B1A4 /* CreditManager.swift in Sources */,
+				FC613389292CD24300A1B1A4 /* InputType.swift in Sources */,
+				FC61337F292CBC0200A1B1A4 /* Monitor.swift in Sources */,
+				FC613381292CC67200A1B1A4 /* String+isAlphanumeric.swift in Sources */,
 				FC613378292CB29A00A1B1A4 /* main.swift in Sources */,
+				FC613383292CC68700A1B1A4 /* Student.swift in Sources */,
+				FC613387292CD23400A1B1A4 /* Credit.swift in Sources */,
+				FC61338B292CE09A00A1B1A4 /* StudentDAO.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
