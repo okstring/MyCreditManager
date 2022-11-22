@@ -76,11 +76,9 @@
 			isa = PBXGroup;
 			children = (
 				FC613377292CB29A00A1B1A4 /* main.swift */,
-				FC61338E292CEA2100A1B1A4 /* CreditManager.swift */,
-				FC61337E292CBC0200A1B1A4 /* Monitor.swift */,
-				FC61338A292CE09A00A1B1A4 /* Computer.swift */,
-				FC613391292CEA4300A1B1A4 /* extension */,
+				FC613394292CEDFF00A1B1A4 /* StructuresAndClasses  */,
 				FC613390292CEA3300A1B1A4 /* Model */,
+				FC613391292CEA4300A1B1A4 /* extension+ */,
 			);
 			path = MyCreditManager;
 			sourceTree = "<group>";
@@ -97,12 +95,22 @@
 			path = Model;
 			sourceTree = "<group>";
 		};
-		FC613391292CEA4300A1B1A4 /* extension */ = {
+		FC613391292CEA4300A1B1A4 /* extension+ */ = {
 			isa = PBXGroup;
 			children = (
 				FC613380292CC67200A1B1A4 /* String+isAlphanumeric.swift */,
 			);
-			path = extension;
+			path = "extension+";
+			sourceTree = "<group>";
+		};
+		FC613394292CEDFF00A1B1A4 /* StructuresAndClasses  */ = {
+			isa = PBXGroup;
+			children = (
+				FC61338E292CEA2100A1B1A4 /* CreditManager.swift */,
+				FC61337E292CBC0200A1B1A4 /* Monitor.swift */,
+				FC61338A292CE09A00A1B1A4 /* Computer.swift */,
+			);
+			path = "StructuresAndClasses ";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
